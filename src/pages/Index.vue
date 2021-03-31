@@ -3,7 +3,7 @@
     <div class="q-pa-md">
     <q-table
       title="Device Info"
-      v-show="claimed"
+        v-show="claimed"
       :data="data"
       :columns="columns"
       hide-bottom
